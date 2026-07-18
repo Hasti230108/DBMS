@@ -29,7 +29,7 @@
 college_management
 
 ## Table created 
-teachers
+### 1. teachers
 
 | Column | Data Type | Constraints |
 |--------|-----------|-------------|
@@ -41,8 +41,23 @@ teachers
 | salary | INT | NOT NULL |
 | city | VARCHAR(30) | - |
 
+### 2. students
+
+| Column | Data Type | Constraints |
+|--------|-----------|-------------|
+| student_id | INT | PRIMARY KEY |
+| first_name | VARCHAR(15) | NOT NULL |
+| last_name | VARCHAR(15) | NOT NULL |
+| age | INT | - |
+| gender | VARCHAR(10) | NOT NULL |
+| city | VARCHAR(15) | - |
+| course | VARCHAR(50) | NOT NULL |
+| semester | INT | - |
+| marks | INT | - |
+
 ## Records Added
-- Total Records: **5**
+- teachers: **5**
+- students: **10**
 
 ## Queries Practiced
 - Create Database
@@ -60,6 +75,10 @@ teachers
 - Multiple Conditions using `AND` & `OR`
 - Aggregate Functions (`COUNT`, `MAX`, `MIN`, `AVG`, `SUM`)
 - NULL Value Handling (`IS NULL`, `IS NOT NULL`)
+- Working with Multiple Tables
+- Sorting Student Records
+- Filtering Student Records
 
-## Outcome
-I practiced creating databases and tables, inserting and updating records, filtering data, sorting results, using aggregate functions, and handling NULL values in MySQL.
+## Learning Outcome
+
+In this session, I practiced creating multiple tables, inserting records, updating data, filtering records using WHERE, sorting data with ORDER BY, removing duplicates using DISTINCT, limiting results using LIMIT, applying aggregate functions, and handling NULL values in MySQL.

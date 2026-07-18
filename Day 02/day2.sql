@@ -42,3 +42,43 @@ SELECT MIN(salary) FROM teachers;
 SELECT AVG(salary) FROM teachers;
 SELECT * FROM teachers WHERE experience IS NULL;
 SELECT * FROM teachers WHERE experience IS NOT NULL;
+
+CREATE TABLE students(
+    student_id int PRIMARY KEY,
+    first_name varchar(15)  NOT NULL,
+    last_name varchar(15) NOT NULL,
+    age int,
+    gender varchar(10) NOT NULL,
+    city varchar(15),
+    course varchar(50) NOT NULL,
+    semester int,
+    marks int
+);
+
+INSERT INTO students VALUES
+(101, 'Hasti', 'Karaniya', 18, 'Female', 'Mumbai', 'AI & ML', 3, 91),
+(102, 'Rahul', 'Sharma', 21, 'Male', 'Pune', 'Data Science', 5, 76),
+(103, 'Ananya', 'Patel', 20, 'Female', 'Delhi', 'Web Development', 4, 88),
+(104, 'Elia', 'Khan', 18, 'Male', 'Mumbai', 'AI & ML', 3, 89),
+(105, 'Riya', 'Kulkarni', 22, 'Female', 'Bangalore', 'Data Science', 5, 56),
+(106, 'Aarav', 'Mehta', 19, 'Male', 'Pune', 'Information Technology', 2, 83),
+(107, 'Tejal', 'Konjiya', 19, 'Female', 'Mumbai', 'AI & ML', 3, 84),
+(108, 'Kartik', 'Sharma', 20, 'Male', 'Delhi', 'Web Development', 4, 57),
+(109, 'Sanya', 'Patel', 21, 'Female', 'Bangalore', 'Information Technology', 2, 92),
+(110, 'Tahseen', 'Raza', 20, 'Male', 'Mumbai', 'AI & ML', 3, 85);
+
+SELECT * FROM students;
+SELECT * FROM students WHERE marks > 80;
+SELECT * FROM students WHERE city = 'Mumbai';
+SELECT * FROM students WHERE city = 'Mumbai' OR city = 'Pune';
+SELECT * FROM students WHERE marks BETWEEN 70 AND 90;
+SELECT * FROM students WHERE course = 'AI & ML';
+SELECT first_name, marks FROM students WHERE marks > 80;
+SELECT DISTINCT city FROM students;
+SELECT * FROM students LIMIT 5;
+SELECT MAX(marks), MIN(marks), AVG(marks), SUM(marks) FROM students;
+SELECT COUNT(*) FROM students;
+SELECT * FROM students ORDER BY marks DESC;
+SELECT * FROM students ORDER BY first_name ASC;
+SELECT * FROM students WHERE first_name LIKE 'T%';
+SELECT * FROM students WHERE last_name LIKE '%a';
