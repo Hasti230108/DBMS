@@ -39,14 +39,14 @@ This repository contains my daily SQL and Database Management System practice.
 - IS NOT NULL
 
 ### Day 3 - Table Alteration
--ALTER TABLE
--ADD COLUMN
--MODIFY COLUMN
--RENAME COULMN
--DROP COLUMN
--RENAME TABLE
--DELETE
--UPDATE
+- ALTER TABLE
+- ADD COLUMN
+- MODIFY COLUMN
+- RENAME COULMN
+- DROP COLUMN
+- RENAME TABLE
+- DELETE
+- UPDATE
 
 ### Day 4 - Transaction Control Language (TCL)
 - START TRANSACTION
