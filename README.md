@@ -37,3 +37,20 @@ This repository contains my daily SQL and Database Management System practice.
 - SUM()
 - IS NULL
 - IS NOT NULL
+
+### Day 3 - Table Alteration
+-ALTER TABLE
+-ADD COLUMN
+-MODIFY COLUMN
+-RENAME COULMN
+-DROP COLUMN
+-RENAME TABLE
+-DELETE
+-UPDATE
+
+### Day 4 - Transaction Control Language (TCL)
+- START TRANSACTION
+- COMMIT
+- ROLLBACK
+- SAVEPOINT
+- ROLLBACK TO SAVEPOINT
