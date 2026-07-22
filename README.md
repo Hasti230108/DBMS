@@ -1,6 +1,6 @@
 # DBMS Learning Journey
 
-This repository contains my daily SQL and Database Management System practice.
+This repository contains my daily SQL and Database Management System practice. It documents my journey of learning SQL concepts step by step through hands-on queries and database design.
 
 ## Topics
 - SQL Basics
@@ -8,6 +8,8 @@ This repository contains my daily SQL and Database Management System practice.
 - DML (Data Manipulation Language)
 - DQL (Data Query Language)
 - Constraints
+- Foreign Keys
+- Referential Integrity
 - Filtering Data
 - Sorting Data
 - Aggregate Functions
@@ -54,3 +56,25 @@ This repository contains my daily SQL and Database Management System practice.
 - ROLLBACK
 - SAVEPOINT
 - ROLLBACK TO SAVEPOINT
+
+### Day 5 - SQL Constraints
+- PRIMARY KEY
+- NOT NULL
+- UNIQUE
+- DEFAULT
+- CHECK
+- DESC
+- Constraint Validation
+- Constraint Testing
+
+### Day 6 - Foreign Key & Referential Integrity
+- Parent Table
+- Child Table
+- FOREIGN KEY
+- REFERENCES
+- Referential Integrity
+- ALTER TABLE
+- ADD CONSTRAINT
+- Updating Foreign Keys
+- Testing FOREIGN KEY Constraint
+- Testing Referential Integrity
