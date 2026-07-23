@@ -78,3 +78,7 @@ This repository contains my daily SQL and Database Management System practice. I
 - Updating Foreign Keys
 - Testing FOREIGN KEY Constraint
 - Testing Referential Integrity
+
+### Day 7 - SQL Revision
+- Filtering
+- Sorting
