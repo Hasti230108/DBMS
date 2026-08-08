@@ -21,6 +21,7 @@ This repository documents my SQL and Database Management System learning through
 - User Defined Functions (UDF)
 - Triggers
 - Views
+- Indexes
 
 ## Tools Used
 
