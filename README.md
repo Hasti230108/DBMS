@@ -22,6 +22,8 @@ This repository documents my SQL and Database Management System learning through
 - Triggers
 - Views
 - Indexes
+- Subqueries
+- SQL CTEs
 
 ## Tools Used
 
