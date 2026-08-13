@@ -16,6 +16,7 @@ This repository documents my SQL and Database Management System learning through
 - Aggregate Functions
 - GROUP BY & HAVING
 - Joins (INNER, LEFT, RIGHT, SELF)
+- Multiple JOINs
 - UNION & UNION ALL
 - Stored Procedures
 - User Defined Functions (UDF)
