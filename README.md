@@ -25,6 +25,7 @@ This repository documents my SQL and Database Management System learning through
 - Indexes
 - Subqueries
 - SQL CTEs
+- Window Functions
 
 ## Tools Used
 
