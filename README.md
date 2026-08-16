@@ -26,6 +26,7 @@ This repository documents my SQL and Database Management System learning through
 - Subqueries
 - SQL CTEs
 - Window Functions
+- LAG and LEAD Window Functions
 
 ## Tools Used
 
